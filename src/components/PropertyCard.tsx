@@ -9,7 +9,7 @@ const PropertyCard = ({ img, imgAlt, date, title }: PropertyCardProps) => {
   return (
     <div>
       <img src={img} alt={imgAlt} className="shadow-2xl rounded-md" />
-      <div className="pt-[60px]">
+      <div className="pt-[30px] md:pt-[60px]">
         <p className="text-xs text-[#1E1E1E] leading-none tracking-wide">
           {date}
         </p>

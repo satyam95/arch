@@ -2,17 +2,17 @@ import footerImg from "../assets/footer.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#131313] py-20">
-      <div className="container mx-auto">
-        <div className="flex flex-col gap-20">
-          <div className="flex gap-20">
+    <footer className="bg-[#131313] py-16 lg:py-20">
+      <div className="container mx-auto px-4 md:px-8 xl:px-0">
+        <div className="flex flex-col gap-16 lg:gap-20">
+          <div className="flex flex-col md:flex-row gap-10 lg:gap-20">
             <img src={footerImg} alt="footer image" />
             <div className="flex flex-col gap-20">
               <div className="flex flex-col gap-3">
                 <p className="text-[#EAEDF6] text-[22px] leading-[35.2px]">
                   Have a project in mind?{" "}
                 </p>
-                <p className="text-[#EAEDF6] text-[32px] leading-tight font-medium">
+                <p className="text-[#EAEDF6] text-2xl lg:text-[32px] leading-tight font-medium">
                   We'll work closely with you to understand your needs and
                   create a custom design that reflects your style and values.
                 </p>
