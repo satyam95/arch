@@ -1,50 +1,65 @@
-# React + TypeScript + Vite
+# Architecture Studio Landing Page 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for an architecture studio, built using **React.js** and **Tailwind CSS**. The design was carefully converted from a Figma mockup into clean, mobile-first code, ensuring an optimal viewing experience across all devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ **Features**
 
-## Expanding the ESLint configuration
+- Fully responsive design optimized for both desktop and mobile devices.
+- Seamless Figma-to-code conversion for a polished user interface.
+- Utilizes **React.js** for interactive elements and dynamic content.
+- Styled with the utility-first approach of **Tailwind CSS** for fast development and customizability.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 💻 **Tech Stack**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React.js**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling the page.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🚀 **Getting Started**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js (v14 or higher)
+- npm or yarn (package manager)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/satyam95/arch.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd arch
+   ````
+
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ````
+
+### Running the Project
+
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+2. Open your browser and visit: http://localhost:5173/
+
+## 🌐 Live Preview
+
+You can see the live version of the project here: https://arch-beige.vercel.app/
